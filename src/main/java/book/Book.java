@@ -32,6 +32,9 @@ public class Book {
 					count = count + countLine(tt);
 				}
 			}
+			
+			
+			
 		} else {
 			FileReader reader = new FileReader(file);
 			BufferedReader br=new BufferedReader(reader);
