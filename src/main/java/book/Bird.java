@@ -1,9 +1,17 @@
 package book;
-//先定义一个父类
+//这个有问题,运行不了
+//先定义一个父类 
  class Bird extends Object {
 	public void fly(){
 		System.out.println("在天空中飞翔!");
-		
+	}
+	
+	
+	public static void main(String[] args){
+		Narrow n= new Narrow();
+		n.say();
+
+	}
 	
 	
 }	
@@ -17,17 +25,13 @@ package book;
 		//去父类对象中找fly 方法
 		super.fly();
 	}
+}	
+ class superdome{	
+// super的用法
+	
+
 	
 }	
-class superdome{	
-// super的用法
-	public static void main(String[] args){
-		Narrow n= new Narrow();
-		n.say();
-	}
-}
-	
-	
 	
 	
 	
